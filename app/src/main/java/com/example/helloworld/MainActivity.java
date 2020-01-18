@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         int [] setOfNumbers = {1, 2, 3, 4, 5, 6 ,7 ,8 ,9, 10};
         int length = setOfNumbers.length;
         int getElement = setOfNumbers[setOfNumbers.length - 1];
@@ -113,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
         tvResult.setText(res);
 
 
-        Toast.makeText(MainActivity.this, "Title: "+ tvTitle.getText().toString() + "\n"
+        Toast.makeText(MainActivity.this, "Title Update: "+ tvTitle.getText().toString() + "\n"
                         + "Input text: " + etInput.getText().toString(), Toast.LENGTH_SHORT).show();
 
 
