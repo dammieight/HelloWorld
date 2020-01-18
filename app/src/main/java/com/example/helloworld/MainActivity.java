@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
         tvResult.setText(res);
 
 
-        Toast.makeText(MainActivity.this, "Title Update: "+ tvTitle.getText().toString() + "\n"
+        Toast.makeText(MainActivity.this, "Title Updated: "+ tvTitle.getText().toString() + "\n"
                         + "Input text: " + etInput.getText().toString(), Toast.LENGTH_SHORT).show();
 
 
